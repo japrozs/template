@@ -16,7 +16,7 @@ fi
 
 git clone https://github.com/japrozs/template.git $1
 cd $1
-rm -rf .git new.sh README.md
+rm -rf .git new.sh README.md assets
 chmod +x ./make.sh
 ./make.sh
 if ./out/main; then
